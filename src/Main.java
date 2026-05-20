@@ -1,5 +1,6 @@
 import arrays.TwoSum;
 import strings.ReverseString;
+import linkedlist.InsertEndNode;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,5 +8,6 @@ public class Main {
 
         TwoSum.run();
         ReverseString.run();
+        InsertEndNode.run();
     }
 }

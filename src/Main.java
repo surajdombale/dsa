@@ -1,4 +1,5 @@
 import arrays.TwoSum;
+import strings.PalindromeString;
 import strings.ReverseString;
 import linkedlist.InsertEndNode;
 
@@ -9,5 +10,6 @@ public class Main {
         TwoSum.run();
         ReverseString.run();
         InsertEndNode.run();
+        PalindromeString.run();
     }
 }

@@ -1,4 +1,5 @@
 import arrays.FindLargestElement;
+import arrays.ReverseArray;
 import arrays.TwoSum;
 import strings.PalindromeString;
 import strings.ReverseString;
@@ -13,6 +14,7 @@ public class Main {
         InsertEndNode.run();
         PalindromeString.run();
         FindLargestElement.run();
+        ReverseArray.run();
 
     }
 }

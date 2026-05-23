@@ -1,3 +1,4 @@
+import arrays.FindDuplicate;
 import arrays.FindLargestElement;
 import arrays.PalindromeArray;
 import arrays.ReverseArray;
@@ -16,7 +17,8 @@ public class Main {
         PalindromeString.run();
         FindLargestElement.run();
         ReverseArray.run();
-        PalindromeArray.run();
+        PalindromeArray.run();  
+        FindDuplicate.run();
 
     }
 }

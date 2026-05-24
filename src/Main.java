@@ -1,5 +1,6 @@
 import arrays.FindDuplicate;
 import arrays.FindLargestElement;
+import arrays.MoveZeroToEnd;
 import arrays.PalindromeArray;
 import arrays.ReverseArray;
 import arrays.TwoSum;
@@ -19,6 +20,7 @@ public class Main {
         ReverseArray.run();
         PalindromeArray.run();  
         FindDuplicate.run();
+        MoveZeroToEnd.run();
 
     }
 }

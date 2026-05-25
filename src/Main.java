@@ -25,6 +25,5 @@ public class Main {
         MoveZeroToEnd.run();
         CountVowels.run();
         CountWords.run();
-
     }
 }

@@ -5,6 +5,7 @@ import arrays.PalindromeArray;
 import arrays.ReverseArray;
 import arrays.TwoSum;
 import strings.CountVowels;
+import strings.CountWords;
 import strings.PalindromeString;
 import strings.ReverseString;
 import linkedlist.InsertEndNode;
@@ -23,6 +24,7 @@ public class Main {
         FindDuplicate.run();
         MoveZeroToEnd.run();
         CountVowels.run();
+        CountWords.run();
 
     }
 }

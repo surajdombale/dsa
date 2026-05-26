@@ -7,6 +7,7 @@ import arrays.TwoSum;
 import strings.CountVowels;
 import strings.CountWords;
 import strings.PalindromeString;
+import strings.RemoveSpace;
 import strings.ReverseString;
 import linkedlist.InsertEndNode;
 
@@ -25,5 +26,6 @@ public class Main {
         MoveZeroToEnd.run();
         CountVowels.run();
         CountWords.run();
+        RemoveSpace.run();
     }
 }

@@ -6,6 +6,7 @@ import arrays.ReverseArray;
 import arrays.TwoSum;
 import strings.CountVowels;
 import strings.CountWords;
+import strings.FindDuplicateCharacters;
 import strings.PalindromeString;
 import strings.RemoveSpace;
 import strings.ReverseString;
@@ -27,5 +28,6 @@ public class Main {
         CountVowels.run();
         CountWords.run();
         RemoveSpace.run();
+        FindDuplicateCharacters.run();
     }
 }

@@ -5,7 +5,7 @@ import arrays.PalindromeArray;
 import arrays.ReverseArray;
 import arrays.TwoSum;
 import strings.*;
-import linkedlist.InsertEndNode;
+import linkedlist.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Main {
         RemoveSpace.run();
         FindDuplicateCharacters.run();
         CheckAnagram.run();
-        ReverseLinked.run();
+        ReversedLinked.run();
 
     }
 }

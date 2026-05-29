@@ -4,12 +4,7 @@ import arrays.MoveZeroToEnd;
 import arrays.PalindromeArray;
 import arrays.ReverseArray;
 import arrays.TwoSum;
-import strings.CountVowels;
-import strings.CountWords;
-import strings.FindDuplicateCharacters;
-import strings.PalindromeString;
-import strings.RemoveSpace;
-import strings.ReverseString;
+import strings.*;
 import linkedlist.InsertEndNode;
 
 public class Main {
@@ -29,5 +24,8 @@ public class Main {
         CountWords.run();
         RemoveSpace.run();
         FindDuplicateCharacters.run();
+        CheckAnagram.run();
+        ReverseLinked.run();
+
     }
 }

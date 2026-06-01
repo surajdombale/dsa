@@ -26,6 +26,7 @@ public class Main {
         FindDuplicateCharacters.run();
         CheckAnagram.run();
         ReversedLinked.run();
+        FindMiddleNode.run();
 
     }
 }

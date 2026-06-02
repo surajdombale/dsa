@@ -27,6 +27,7 @@ public class Main {
         CheckAnagram.run();
         ReversedLinked.run();
         FindMiddleNode.run();
+        DetectLoop.run();
 
     }
 }

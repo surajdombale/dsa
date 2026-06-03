@@ -31,13 +31,15 @@ public class DetectLoop {
         ListNode second = new ListNode(2);
         ListNode third = new ListNode(3);
         ListNode fourth = new ListNode(4);
+        ListNode fifth = new ListNode(5);
 
         head.setNext(second);
         second.setNext(third);
         third.setNext(fourth);
 
         // Creating loop manually
-        fourth.setNext(third);
+        fourth.setNext(fifth);
+        fifth.setNext(second);
 
         ListNode slow = head;
         ListNode fast = head;
@@ -61,5 +63,6 @@ public class DetectLoop {
             System.out.println("No Loop");
         }
     }
+
 
 }   

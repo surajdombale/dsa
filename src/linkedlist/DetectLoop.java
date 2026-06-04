@@ -32,6 +32,7 @@ public class DetectLoop {
         ListNode third = new ListNode(3);
         ListNode fourth = new ListNode(4);
         ListNode fifth = new ListNode(5);
+        ListNode sixth = new ListNode(6);
 
         head.setNext(second);
         second.setNext(third);
@@ -39,8 +40,8 @@ public class DetectLoop {
 
         // Creating loop manually
         fourth.setNext(fifth);
-        fifth.setNext(second);
-
+        fifth.setNext(sixth);
+        sixth.setNext(second);
         ListNode slow = head;
         ListNode fast = head;
 

@@ -34,6 +34,7 @@ public class DetectLoop {
         ListNode fifth = new ListNode(5);
         ListNode sixth = new ListNode(6);
         ListNode seventh = new ListNode(7);
+        ListNode eighth = new ListNode(8);
 
         head.setNext(second);
         second.setNext(third);
@@ -44,6 +45,7 @@ public class DetectLoop {
         fifth.setNext(sixth);
         sixth.setNext(second);
         seventh.setNext(fourth);
+        eighth.setNext(fifth);
         ListNode slow = head;
         ListNode fast = head;
 

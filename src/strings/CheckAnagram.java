@@ -2,8 +2,10 @@ package strings;
 public class CheckAnagram { 
 
 public static void run () {
-        String str1 = "listen";
-        String str2 = "silent";
+        // String str1 = "listen";
+        // String str2 = "silent";
+        String str1 = "hello";
+        String str2 = "world";
 
         System.out.println("Check Anagram Result:");
         System.out.println("String 1: " + str1);

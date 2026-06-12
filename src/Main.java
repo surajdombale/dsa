@@ -28,6 +28,7 @@ public class Main {
         ReversedLinked.run();
         FindMiddleNode.run();
         DetectLoop.run();
+        CountNodes.run();
 
     }
 }

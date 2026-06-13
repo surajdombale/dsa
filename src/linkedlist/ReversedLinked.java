@@ -31,6 +31,8 @@ public class ReversedLinked {
         head.getNext().setNext(new ListNode(3));
         head.getNext().getNext().setNext(new ListNode(4));
         head.getNext().getNext().getNext().setNext(new ListNode(5));
+        head.getNext().getNext().getNext().getNext().setNext(new ListNode(6));
+        head.getNext().getNext().getNext().getNext().getNext().setNext(new ListNode(7));
 
         System.out.println("Original Linked List:");
         printList(head);

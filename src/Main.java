@@ -1,3 +1,5 @@
+import javax.crypto.SealedObject;
+
 import arrays.FindDuplicate;
 import arrays.FindLargestElement;
 import arrays.MoveZeroToEnd;
@@ -29,6 +31,7 @@ public class Main {
         FindMiddleNode.run();
         DetectLoop.run();
         CountNodes.run();
+        SearchElement.run();
 
     }
 }

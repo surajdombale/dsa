@@ -36,7 +36,7 @@ public class CountNodes {
         head.getNext().getNext().getNext().getNext().getNext().getNext().setNext(new ListNode(8));
         head.getNext().getNext().getNext().getNext().getNext().getNext().getNext().setNext(new ListNode(9));
         head.getNext().getNext().getNext().getNext().getNext().getNext().getNext().getNext().setNext(new ListNode(10));
-
+        head.getNext().getNext().getNext().getNext().getNext().getNext().getNext().getNext().getNext().setNext(new ListNode(11));
         int count = 0;
         ListNode current = head;
 

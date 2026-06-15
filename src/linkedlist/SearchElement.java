@@ -14,6 +14,8 @@ public class SearchElement {
         head.setNext(new ListNode(2));
         head.getNext().setNext(new ListNode(3));
         head.getNext().getNext().setNext(new ListNode(4));
+        head.getNext().getNext().getNext().setNext(new ListNode(5));
+       
 
         int target = 3;
         boolean found = search(head, target);
@@ -23,5 +25,15 @@ public class SearchElement {
         } else {
             System.out.println("Element " + target + " not found in the linked list.");
         }
+    }
+    public static boolean search (ListNode head, int target) {
+            ListNode current = head;
+            while (current != null) {
+                if (current.getVal() == target) {
+                    return true;
+                }
+                current = current.getNext();
+            }
+            return false;
     }
 }

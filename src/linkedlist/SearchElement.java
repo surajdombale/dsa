@@ -12,7 +12,6 @@ public class SearchElement {
         head.setNext(new ListNode(2));
         head.getNext().setNext(new ListNode(3));
         head.getNext().getNext().setNext(new ListNode(4));
-        head.getNext().getNext().getNext().setNext(new ListNode(5));
 
         int target = 3;
         boolean found = search(head, target);

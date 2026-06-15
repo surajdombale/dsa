@@ -1,6 +1,6 @@
 package linkedlist;
 
-public class SerachElement {
+public class SearchElement {
     public static void run() {
         System.out.println("Search Element Result:");
         searchElement();

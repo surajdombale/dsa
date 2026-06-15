@@ -1,5 +1,7 @@
 package linkedlist;
 
+import util.ListNode;
+
 public class SearchElement {
     public static void run() {
         System.out.println("Search Element Result:");

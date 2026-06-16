@@ -9,7 +9,7 @@ public class DeleteNode {
         ListNode head = new ListNode(1);
         head.setNext(new ListNode(2));
         head.getNext().setNext(new ListNode(3));
-        deleteNode(head.getNext().getNext());
+        deleteNode(head);
     }
 
     

@@ -32,6 +32,7 @@ public class Main {
         DetectLoop.run();
         CountNodes.run();
         SearchElement.run();
+        DeleteNode.run();
 
     }
 }

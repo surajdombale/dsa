@@ -33,6 +33,7 @@ public class Main {
         CountNodes.run();
         SearchElement.run();
         DeleteNode.run();
+        FindCharacters.run();
 
     }
 }

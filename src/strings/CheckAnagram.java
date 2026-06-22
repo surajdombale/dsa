@@ -2,8 +2,11 @@ package strings;
 public class CheckAnagram { 
 
 public static void run () {
-        String str1 = "listen";
-        String str2 = "silent";
+        // String str1 = "listen";
+        // String str2 = "silent";
+        String str1 = "code";
+        String str2 = "deco";
+
         // String str1 = "hello";
         // String str2 = "world";
 

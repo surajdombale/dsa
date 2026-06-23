@@ -4,7 +4,7 @@ package strings;
 public class FindCharacters {
 
     public static void run() {
-        String input = "hello world";
+        String input = "hello world java programming";
         char targetChar = 'o';
         int count = findCharacterCount(input, targetChar);
 

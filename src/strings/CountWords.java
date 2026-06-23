@@ -2,7 +2,7 @@ package strings;
 
 public class CountWords {
     public static void run() {
-        String input = "hello world";
+        String input = "hello world java programming";
         int count = countWords(input);
         System.out.println("Count Words Result:");
         System.out.println("Input: " + input);

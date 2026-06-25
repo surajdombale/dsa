@@ -34,6 +34,7 @@ public class Main {
         SearchElement.run();
         DeleteNode.run();
         FindCharacters.run();
+        FindValue.run();
 
     }
 }

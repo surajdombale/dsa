@@ -1,11 +1,6 @@
 import javax.crypto.SealedObject;
 
-import arrays.FindDuplicate;
-import arrays.FindLargestElement;
-import arrays.MoveZeroToEnd;
-import arrays.PalindromeArray;
-import arrays.ReverseArray;
-import arrays.TwoSum;
+import arrays.*;
 import strings.*;
 import linkedlist.*;
 

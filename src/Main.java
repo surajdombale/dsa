@@ -30,6 +30,7 @@ public class Main {
         DeleteNode.run();
         FindCharacters.run();
         FindValue.run();
+        FindSmallestElement.run();
 
     }
 }

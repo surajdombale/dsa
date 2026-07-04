@@ -66,14 +66,14 @@ public class ShiftNode {
         ListNode newHead = newTail.getNext();
 
         // Break the circular link
-        newTail.getNext() = null;
+        newTail.setNext(null); // Set the next pointer of the new tail to null;
 
         return newHead;
     }
 
     private static void printList(ListNode head) {
         while (head != null) {
-            System.out.print(head.val + " ");
+            System.out.print(head.getValue() + " ");
             head = head.getNext();
         }
         System.out.println();

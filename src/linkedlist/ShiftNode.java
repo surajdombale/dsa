@@ -76,6 +76,5 @@ public class ShiftNode {
             System.out.print(head.getValue() + " ");
             head = head.getNext();
         }
-        System.out.println();
     }
 }   

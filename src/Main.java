@@ -31,6 +31,7 @@ public class Main {
         FindCharacters.run();
         FindValue.run();
         FindSmallestElement.run();
+        ShiftNode.run();
 
     }
 }

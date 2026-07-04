@@ -7,10 +7,10 @@ public class ShiftNode {
     public static void run() {
         System.out.println("Running Shift Node...");
         ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        head.getNext().setNext(new ListNode(2));
+        head.getNext().getNext().setNext(new ListNode(3));
+        head.getNext().getNext().getNext().setNext(new ListNode(4));
+        head.getNext().getNext().getNext().getNext().setNext(new ListNode(5));
 
         System.out.print("Original Linked List: ");
         printList(head);
@@ -41,32 +41,32 @@ public class ShiftNode {
     */
 
     public static ListNode shiftNode(ListNode head, int k) {
-        if (head == null || head.next == null || k <= 0) {
+        if (head == null || head.getNext() == null || k <= 0) {
             return head;
         }
 
         // Find the length of the linked list
         int length = 1;
         ListNode tail = head;
-        while (tail.next != null) {
-            tail = tail.next;
+        while (tail.getNext() != null) {
+            tail = tail.getNext();
             length++;
         }
 
         // Make the linked list circular
-        tail.next = head;
+        tail.getNext() = head;
 
         // Find the new tail and new head after shifting
         k = k % length; // Handle cases where k is greater than length
         int stepsToNewTail = length - k;
         ListNode newTail = head;
         for (int i = 1; i < stepsToNewTail; i++) {
-            newTail = newTail.next;
+            newTail = newTail.getNext();
         }
-        ListNode newHead = newTail.next;
+        ListNode newHead = newTail.getNext();
 
         // Break the circular link
-        newTail.next = null;
+        newTail.getNext() = null;
 
         return newHead;
     }
@@ -74,7 +74,7 @@ public class ShiftNode {
     private static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + " ");
-            head = head.next;
+            head = head.getNext();
         }
         System.out.println();
     }

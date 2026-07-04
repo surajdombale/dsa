@@ -54,7 +54,7 @@ public class ShiftNode {
         }
 
         // Make the linked list circular
-        tail.getNext() = head;
+        tail.setNext(head);
 
         // Find the new tail and new head after shifting
         k = k % length; // Handle cases where k is greater than length

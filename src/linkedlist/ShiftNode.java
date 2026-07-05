@@ -73,7 +73,7 @@ public class ShiftNode {
 
     private static void printList(ListNode head) {
         while (head != null) {
-            System.out.print(head.getValue() + " ");
+            System.out.println(head.getVal() + " ");
             head = head.getNext();
         }
     }

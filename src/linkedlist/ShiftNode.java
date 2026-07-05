@@ -7,10 +7,10 @@ public class ShiftNode {
     public static void run() {
         System.out.println("Running Shift Node...");
         ListNode head = new ListNode(1);
-        head.getNext().setNext(new ListNode(2));
-        head.getNext().getNext().setNext(new ListNode(3));
-        head.getNext().getNext().getNext().setNext(new ListNode(4));
-        head.getNext().getNext().getNext().getNext().setNext(new ListNode(5));
+        head.setNext(new ListNode(2));
+        head.getNext().setNext(new ListNode(3));
+        head.getNext().getNext().setNext(new ListNode(4));
+        head.getNext().getNext().getNext().setNext(new ListNode(5));
 
         System.out.print("Original Linked List: ");
         printList(head);

@@ -32,6 +32,7 @@ public class Main {
         FindValue.run();
         FindSmallestElement.run();
         ShiftNode.run();
+        SortString.run();
 
     }
 }
